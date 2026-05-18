@@ -1,9 +1,9 @@
-import { Home, Key, Building, MapPin, Search, Handshake, ShieldCheck, Map, Phone } from 'lucide-react';
+import { Home, Key, Building, MapPin, Search, Handshake, ShieldCheck, Users, Phone } from 'lucide-react';
 
 export const navLinks = [
   { name: 'Services', href: '#services' },
   { name: 'About', href: '#about' },
-  { name: 'Featured Localities', href: '#portfolio' },
+  { name: 'South Kolkata Areas', href: '#portfolio' },
   { name: 'Testimonials', href: '#testimonials' },
   { name: 'FAQ', href: '#faq' },
 ];
@@ -11,48 +11,62 @@ export const navLinks = [
 export const services = [
   {
     id: 1,
-    title: 'Property Buying Consultation',
-    description: 'Expert guidance to help you find and secure the perfect residential or commercial property in Salt Lake and surrounding areas.',
+    title: 'Buyer Consultation',
+    description: 'Personalised property search and shortlisting across Rash Behari Avenue, Dover Lane, and the wider South Kolkata belt — guiding you from first enquiry to final handover.',
     icon: Search,
-    color: 'from-red-500 to-red-700',
+    color: 'from-emerald-600 to-emerald-800',
   },
   {
     id: 2,
-    title: 'Property Selling Services',
-    description: 'Strategic marketing and advisory support for owners looking to sell their properties quickly and at the right price.',
+    title: 'Seller Advisory',
+    description: 'Strategic valuation, buyer matching, and negotiation support to help property owners achieve the best outcome with minimum stress.',
     icon: Home,
-    color: 'from-blue-800 to-blue-950',
+    color: 'from-amber-600 to-amber-800',
   },
   {
     id: 3,
-    title: 'Rental & Leasing Assistance',
-    description: 'Seamless rental solutions matching tenants with ideal homes and landlords with reliable occupants.',
-    icon: Key,
-    color: 'from-red-400 to-red-600',
+    title: 'Locality Guidance',
+    description: 'Deep hyperlocal knowledge of South Kolkata micro-markets — neighbourhood by neighbourhood, lane by lane — so you always make an informed decision.',
+    icon: MapPin,
+    color: 'from-emerald-500 to-emerald-700',
   },
   {
     id: 4,
-    title: 'Property Loan Consulting',
-    description: 'Navigate the complexities of property financing with our trusted loan consultancy and processing support.',
+    title: 'Property Shortlisting',
+    description: 'Curated shortlists matched precisely to your budget, lifestyle, and family requirements, eliminating wasted visits and saving you valuable time.',
     icon: Building,
-    color: 'from-blue-600 to-blue-800',
+    color: 'from-amber-500 to-amber-700',
+  },
+  {
+    id: 5,
+    title: 'Visit Coordination',
+    description: 'End-to-end scheduling and coordination of site visits — so every property tour is purposeful, well-timed, and productive for both buyers and sellers.',
+    icon: Users,
+    color: 'from-emerald-700 to-emerald-900',
+  },
+  {
+    id: 6,
+    title: 'Negotiation Support',
+    description: 'Expert price negotiation and deal structuring anchored in real local market data — protecting your interests at every step of the transaction.',
+    icon: Handshake,
+    color: 'from-amber-700 to-amber-900',
   },
 ];
 
 export const features = [
   {
-    title: 'Hyperlocal Salt Lake Expertise',
-    description: 'Deep understanding of Sector 1 and broader Salt Lake micro-markets to ensure you make informed local decisions.',
+    title: 'Hyperlocal South Kolkata Expertise',
+    description: 'Deep, street-level knowledge of Rash Behari Avenue, Dover Lane, Ballygunge, Lansdowne, and the broader South Kolkata residential belt.',
     icon: MapPin,
   },
   {
-    title: 'Advisory-First Approach',
-    description: 'We don\'t just show listings; we provide strategic real estate guidance tailored to your specific goals.',
+    title: 'Relationship-Led Advisory',
+    description: 'Krishna Pada Mandal operates on trust and long-term relationships — not quick commissions — ensuring you receive honest, unhurried guidance.',
     icon: Handshake,
   },
   {
     title: 'Trusted Local Authority',
-    description: 'Led by Afaque Ahmed, bringing transparency, credibility, and professional support to every transaction.',
+    description: 'Years of on-the-ground consultancy have built a reputation founded entirely on referrals, repeat clients, and genuine community credibility.',
     icon: ShieldCheck,
   },
 ];
@@ -60,26 +74,26 @@ export const features = [
 export const portfolio = [
   {
     id: 1,
-    title: 'Premium Apartments',
-    category: 'Salt Lake Sector 1',
+    title: 'Residential Apartments',
+    category: 'Rash Behari Avenue',
     image: 'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
   },
   {
     id: 2,
     title: 'Independent Houses',
-    category: 'Kolkata North',
+    category: 'Dover Lane',
     image: 'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
   },
   {
     id: 3,
-    title: 'Commercial Office Spaces',
-    category: 'Salt Lake IT Hub',
-    image: 'https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    title: 'Premium Flats',
+    category: 'Ballygunge',
+    image: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
   },
   {
     id: 4,
-    title: 'Modern Duplexes',
-    category: 'New Town',
+    title: 'Family Homes',
+    category: 'Lansdowne & Gariahat',
     image: 'https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=800&q=80',
   },
 ];
@@ -87,52 +101,56 @@ export const portfolio = [
 export const testimonials = [
   {
     id: 1,
-    name: 'Rajat B.',
-    role: 'Home Buyer',
-    content: 'Afaque guided us perfectly when buying our apartment in Salt Lake Sector 1. His knowledge of the local area and transparent advisory approach gave us huge confidence.',
+    name: 'Subhasis D.',
+    role: 'Home Buyer, Dover Lane',
+    content: 'Krishna da understood exactly what our family needed. He shortlisted properties that matched our budget and requirements perfectly — no wasted visits, just results.',
     rating: 5,
   },
   {
     id: 2,
-    name: 'Sneha M.',
-    role: 'Property Owner',
-    content: 'Gk Realty helped me find reliable tenants for my property within weeks. The entire process was handled professionally and with great care.',
+    name: 'Priya M.',
+    role: 'Property Owner, Ballygunge',
+    content: 'I had a property sitting idle for months. Within weeks of speaking with Krishna Pada, I had a genuine buyer at a fair price. His local network is unmatched.',
     rating: 5,
   },
   {
     id: 3,
-    name: 'Vikram S.',
-    role: 'Investor',
-    content: 'Very practical and clear property loan consultancy. The team helped streamline a complicated financing process for my commercial investment.',
+    name: 'Arnab B.',
+    role: 'First-Time Buyer, Rash Behari',
+    content: 'As a first-time buyer, I was nervous about the whole process. Krishna da guided me at every step — from locality selection to final negotiation — with complete transparency.',
     rating: 5,
   },
 ];
 
 export const faqs = [
   {
-    question: 'What areas do you specialize in?',
-    answer: 'We focus heavily on Salt Lake City (especially Sector 1), as well as covering prime residential and commercial areas across Kolkata, Howrah, and Hooghly.',
+    question: 'Which areas of South Kolkata do you cover?',
+    answer: 'The primary focus is Rash Behari Avenue, Dover Lane, Ballygunge, Lansdowne, Gariahat, and the broader South Kolkata residential belt. If you have a specific neighbourhood in mind, reach out and we\'ll let you know how we can help.',
   },
   {
-    question: 'Can you help with property loans?',
-    answer: 'Yes, we provide dedicated property loan consulting to help buyers secure the best financing options with minimum hassle.',
+    question: 'How does a buyer consultation work?',
+    answer: 'It begins with a simple phone or WhatsApp call to understand your requirements, budget, and preferred localities. From there, a curated shortlist is prepared and visits are coordinated — at your pace, with no pressure.',
   },
   {
-    question: 'How do I start the process of selling my property?',
-    answer: 'Simply book a consultation with us. We will evaluate your property, discuss local market conditions, and strategize the best approach to find the right buyer.',
+    question: 'I want to sell my property. How do I start?',
+    answer: 'Just call or WhatsApp. A consultation is arranged to assess the property, understand local demand, and agree on a positioning strategy. The goal is always to find the right buyer at the right price.',
   },
   {
-    question: 'Do you handle commercial real estate?',
-    answer: 'Absolutely. We assist clients with buying, selling, and leasing commercial office spaces and retail properties in key Kolkata business hubs.',
+    question: 'Do you charge buyers for your consultancy?',
+    answer: 'The fee structure is transparent and discussed upfront before any engagement. There are no hidden charges or surprises — everything is agreed upon openly from the start.',
+  },
+  {
+    question: 'How quickly can you find a property or a buyer?',
+    answer: 'Timelines vary by property type, budget, and market conditions. However, because of the deep local network and hyperlocal knowledge, qualified matches are typically surfaced much faster than through a general listing platform.',
   },
 ];
 
 export const businessDetails = {
-  name: "Gk Realty",
-  address: 'Salt Lake Sector 1',
-  city: 'Kolkata, West Bengal',
-  phone: '+91 9606295389',
-  secondaryPhone: '08048779132',
-  email: 'gkrealty18@gmail.com',
-  hours: 'Mon - Sat: 10:00 AM - 7:00 PM',
+  name: 'Krishna Pada Mandal',
+  tagline: 'South Kolkata Property Advisor',
+  address: 'Rash Behari Avenue',
+  city: 'South Kolkata, West Bengal',
+  phone: '+91 84603 83260',
+  whatsapp: '918460383260',
+  hours: 'Mon – Sat: 10:00 AM – 7:00 PM',
 };
