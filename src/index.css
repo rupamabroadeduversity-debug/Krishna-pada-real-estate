@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #DC2626; /* Red 600 */
+  --color-primary-dark: #991B1B;
+  --color-primary-light: #FCA5A5;
+  --color-accent: #1E3A8A; /* Navy / Blue 900 */
+  --color-accent-light: #60A5FA;
+  
+  --font-sans: "Inter", "system-ui", "sans-serif";
+  --font-heading: "Outfit", "system-ui", "sans-serif";
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply font-sans text-slate-800 bg-slate-50 antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading font-semibold tracking-tight;
+  }
+}
+
+@layer utilities {
+  .glass {
+    @apply bg-white/70 backdrop-blur-md border border-white/20 shadow-xl;
+  }
+  
+  .glass-dark {
+    @apply bg-slate-900/80 backdrop-blur-md border border-slate-700/50 shadow-xl;
+  }
+}
